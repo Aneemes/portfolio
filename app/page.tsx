@@ -26,13 +26,13 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        hey, I'm Animesh 👋
+        hey, I&apos;m Animesh 👋
       </h1>
       <p className="prose prose-neutral ">
         {`Welcome to my corner of the web! I'm a passionate backend engineer with a focus on crafting robust solutions using `}
         <span className="not-prose">
           <span className="border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 text-neutral-100 no-underline">
-          <img
+          <Image
             src="/icons/python-5.svg"
             alt="Python Icon"
             className="!mr-1"
@@ -45,7 +45,7 @@ export default function Page() {
         {` and `}
         <span className="not-prose">
           <span className="border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 text-neutral-100 no-underline">
-            <img
+            <Image
               src="/icons/django.svg"
               alt="Django Icon"
               className="!mr-1"
@@ -73,17 +73,17 @@ export default function Page() {
                 <p className="text-white text-lg font-bold">
                   <span>OLE Nepal</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <img
+                    <Image
                       src="/icons/django.svg"
                       alt="Django Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/postgresql.svg"
                       alt="PostgreSQL Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/html-1.svg"
                       alt="HTML 5 Icon"
                       className="h-5 w-5"
@@ -109,17 +109,17 @@ export default function Page() {
                 <p className="text-white text-lg font-bold">
                   <span>Gadgetly</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <img
+                    <Image
                       src="/icons/nodejs-icon.svg"
                       alt="RabbitMQ Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/react.svg"
                       alt="Django Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/mongodb-icon-1.svg"
                       alt="Python Icon"
                       className="h-5 w-5"
@@ -145,22 +145,22 @@ export default function Page() {
                 <p className="text-white text-lg font-bold">
                   <span>E-Pustakalaya</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <img
+                    <Image
                       src="/icons/django.svg"
                       alt="Django Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/postgresql.svg"
                       alt="Python Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/elasticsearch-seeklogo.svg"
                       alt="RabbitMQ Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/rabbitmq.svg"
                       alt="RabbitMQ Icon"
                       className="h-5 w-5"
@@ -186,17 +186,17 @@ export default function Page() {
                 <p className="text-white text-lg font-bold">
                   <span>BloodBank</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <img
+                    <Image
                       src="/icons/django.svg"
                       alt="Django Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/bootstrap-5.svg"
                       alt="Bootstrap Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/xampp.svg"
                       alt="Xampp Icon"
                       className="h-5 w-5"
@@ -222,12 +222,12 @@ export default function Page() {
                 <p className="text-white text-lg font-bold">
                   <span>Gradewise</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <img
+                    <Image
                       src="/icons/react.svg"
                       alt="React Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/django.svg"
                       alt="Django Icon"
                       className="h-5 w-5"
@@ -253,12 +253,12 @@ export default function Page() {
                 <p className="text-white text-lg font-bold">
                   <span>Gradewise</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <img
+                    <Image
                       src="/icons/react.svg"
                       alt="React Icon"
                       className="h-5 w-5"
                     />
-                    <img
+                    <Image
                       src="/icons/django.svg"
                       alt="Django Icon"
                       className="h-5 w-5"
@@ -272,9 +272,9 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral prose-invert">
         <p>
-        These were some of the projects that I've had the pleasure working on.
+        These were some of the projects that I&apos;ve had the pleasure working on.
         Curious to learn more about my journey and expertise? Dive into the details on my resume. 
-        Feel free to explore my skills, experience, and the exciting challenges I've tackled throughout my career. 
+        Feel free to explore my skills, experience, and the exciting challenges I&apos;ve tackled throughout my career. 
         You can take a look at my resume below and get a deeper insight into what makes me tick as a backend engineer.
         </p>
       </div>
@@ -316,7 +316,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/python-5.svg"
                   alt="Python Icon"
                   className="h-5 w-5"
@@ -330,7 +330,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/logo-javascript.svg"
                   alt="JavaScript Icon"
                   className="h-5 w-5"
@@ -344,7 +344,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/django.svg"
                   alt="Django Icon"
                   className="h-5 w-5"
@@ -362,7 +362,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/docker-4.svg"
                   alt="Docker Icon"
                   className="h-5 w-5"
@@ -376,7 +376,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/elasticsearch-seeklogo.svg"
                   alt="Elasticsearch Icon"
                   className="h-5 w-5"
@@ -390,7 +390,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/rabbitmq.svg"
                   alt="RabbitMQ Icon"
                   className="h-5 w-5"
@@ -408,7 +408,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/redis.svg"
                   alt="Redis Icon"
                   className="h-5 w-5"
@@ -422,7 +422,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/postgresql.svg"
                   alt="PostgreSQL Icon"
                   className="h-5 w-5"
@@ -436,7 +436,7 @@ export default function Page() {
                 </span>
               </div>
               <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <img
+                <Image
                   src="/icons/mongodb-icon-1.svg"
                   alt="MongoDb Icon"
                   className="h-5 w-5"
@@ -450,7 +450,7 @@ export default function Page() {
         <p>
         Ready to embark on a collaborative journey? 
         Connect with me via email, LinkedIn, or explore my GitHub repositories. 
-        Let's discuss opportunities, projects, or anything in between!
+        Let&apos;s discuss opportunities, projects, or anything in between!
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 text-neutral-300">
