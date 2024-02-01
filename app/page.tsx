@@ -290,7 +290,7 @@ export default function Page() {
                 Resume
               </p>
             </div>
-            <div className="text-neutral-700 text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12 text-neutral-100">
+            <div className="text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12 text-neutral-100">
               <ArrowIcon />
             </div>
           </a>
