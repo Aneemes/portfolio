@@ -63,7 +63,7 @@ export default function Page() {
             <div className="group">
               <Image
                 alt="this is alt text"
-                src="/banners/cms.jpg"
+                src="/banners/olesite.jpg"
                 fill
                 sizes="(max-width: 768px) 213px, 33vw"
                 priority
@@ -243,7 +243,7 @@ export default function Page() {
             <div className="group">
               <Image
                 alt="this is alt text"
-                src="/banners/gradewise.jpg"
+                src="/banners/abc.png"
                 fill
                 sizes="(min-width: 768px) 213px, 33vw"
                 priority
