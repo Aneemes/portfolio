@@ -278,11 +278,6 @@ export default function Page() {
                       alt="Redis Icon"
                       className="h-5 w-5"
                     />
-                    <Image
-                      src="/icons/docker-4.svg"
-                      alt="Docker Icon"
-                      className="h-5 w-5"
-                    />
                   </span>
                 </p>
               </div>
