@@ -111,17 +111,22 @@ export default function Page() {
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
                       src="/icons/nodejs-icon.svg"
-                      alt="RabbitMQ Icon"
-                      className="h-5 w-5"
-                    />
-                    <Image
-                      src="/icons/react.svg"
-                      alt="Django Icon"
+                      alt="Node JS Icon"
                       className="h-5 w-5"
                     />
                     <Image
                       src="/icons/mongodb-icon-1.svg"
-                      alt="Python Icon"
+                      alt="MongoDB Icon"
+                      className="h-5 w-5"
+                    />
+                    <Image
+                      src="/icons/react.svg"
+                      alt="React Icon"
+                      className="h-5 w-5"
+                    />
+                    <Image
+                      src="/icons/tailwind-css.svg"
+                      alt="Tailwind Icon"
                       className="h-5 w-5"
                     />
                   </span>
@@ -157,7 +162,7 @@ export default function Page() {
                     />
                     <Image
                       src="/icons/elasticsearch-seeklogo.svg"
-                      alt="RabbitMQ Icon"
+                      alt="ElasticSearch Icon"
                       className="h-5 w-5"
                     />
                     <Image
@@ -232,6 +237,11 @@ export default function Page() {
                       alt="Django Icon"
                       className="h-5 w-5"
                     />
+                    <Image
+                      src="/icons/redux.svg"
+                      alt="Redux Icon"
+                      className="h-5 w-5"
+                    />
                   </span>
                 </p>
               </div>
@@ -239,11 +249,11 @@ export default function Page() {
           </Link>
         </div>
         <div className="relative h-80">
-          <Link href="https://gradewise.pustakalaya.org" target="_blank">
+          <Link href="https://github.com/Aneemes/dripshop" target="_blank">
             <div className="group">
               <Image
                 alt="this is alt text"
-                src="/banners/abc.png"
+                src="/banners/dripshop.png"
                 fill
                 sizes="(min-width: 768px) 213px, 33vw"
                 priority
@@ -251,16 +261,26 @@ export default function Page() {
               />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
                 <p className="text-white text-lg font-bold">
-                  <span>Gradewise</span>
+                  <span>Dripshop</span>
                   <span className="flex items-center justify-center space-x-2 ">
-                    <Image
-                      src="/icons/react.svg"
-                      alt="React Icon"
-                      className="h-5 w-5"
-                    />
                     <Image
                       src="/icons/django.svg"
                       alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                    <Image
+                      src="/icons/postgresql.svg"
+                      alt="PostgreSQL Icon"
+                      className="h-5 w-5"
+                    />
+                    <Image
+                      src="/icons/redis.svg"
+                      alt="Redis Icon"
+                      className="h-5 w-5"
+                    />
+                    <Image
+                      src="/icons/docker-4.svg"
+                      alt="Docker Icon"
                       className="h-5 w-5"
                     />
                   </span>
