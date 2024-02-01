@@ -253,7 +253,7 @@ export default function Page() {
             <div className="group">
               <Image
                 alt="this is alt text"
-                src="/banners/dripshop.png"
+                src="/banners/dripshop.jpg"
                 fill
                 sizes="(min-width: 768px) 213px, 33vw"
                 priority
