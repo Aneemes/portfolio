@@ -70,7 +70,7 @@ export default function Page() {
                 className="rounded-lg object-cover"
               />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
-                <p className="text-white text-lg font-bold">
+                <p className="text-white text-lg">
                   <span>OLE Nepal</span>
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
@@ -91,6 +91,9 @@ export default function Page() {
                   </span>
                 </p>
               </div>
+              <div className="absolute top-0 right-0 mt-2 mr-2 text-neutral-900 group-hover:-rotate-12 group-hover:text-neutral-100">
+                  <ArrowIcon />
+              </div>
             </div>
           </Link>
         </div>
@@ -106,7 +109,7 @@ export default function Page() {
               className="rounded-lg object-cover object-[-16px] sm:object-center"
             />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
-                <p className="text-white text-lg font-bold">
+                <p className="text-white text-lg">
                   <span>Gadgetly</span>
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
@@ -124,14 +127,12 @@ export default function Page() {
                       alt="React Icon"
                       className="h-5 w-5"
                     />
-                    <Image
-                      src="/icons/tailwind-css.svg"
-                      alt="Tailwind Icon"
-                      className="h-5 w-5"
-                    />
                   </span>
                 </p>
               </div>
+            <div className="absolute top-0 right-0 mt-2 mr-2 text-neutral-900 group-hover:-rotate-12 group-hover:text-neutral-100">
+                <ArrowIcon />
+            </div>
           </div>
           </Link>
         </div>
@@ -147,7 +148,7 @@ export default function Page() {
                 className="rounded-lg object-cover object-top sm:object-center"
               />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
-                <p className="text-white text-lg font-bold">
+                <p className="text-white text-lg">
                   <span>E-Pustakalaya</span>
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
@@ -173,6 +174,9 @@ export default function Page() {
                   </span>
                 </p>
               </div>
+              <div className="absolute top-0 right-0 mt-2 mr-2 text-neutral-900 group-hover:-rotate-12 group-hover:text-neutral-100">
+                  <ArrowIcon />
+              </div>
             </div>
           </Link>
         </div>
@@ -188,7 +192,7 @@ export default function Page() {
                 className="rounded-lg object-cover"
               />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
-                <p className="text-white text-lg font-bold">
+                <p className="text-white text-lg">
                   <span>BloodBank</span>
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
@@ -209,6 +213,9 @@ export default function Page() {
                   </span>
                 </p>
               </div>
+              <div className="absolute top-0 right-0 mt-2 mr-2 text-neutral-900 group-hover:-rotate-12 group-hover:text-neutral-100">
+                  <ArrowIcon />
+              </div>
             </div>
           </Link>
         </div>
@@ -224,7 +231,7 @@ export default function Page() {
                 className="rounded-lg object-cover"
               />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
-                <p className="text-white text-lg font-bold">
+                <p className="text-white text-lg">
                   <span>Gradewise</span>
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
@@ -245,6 +252,9 @@ export default function Page() {
                   </span>
                 </p>
               </div>
+              <div className="absolute top-0 right-0 mt-2 mr-2 text-neutral-900 group-hover:-rotate-12 group-hover:text-neutral-100">
+                  <ArrowIcon />
+              </div>
             </div>
           </Link>
         </div>
@@ -260,7 +270,7 @@ export default function Page() {
                 className="rounded-lg object-cover"
               />
               <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
-                <p className="text-white text-lg font-bold">
+                <p className="text-white text-lg ">
                   <span>Dripshop</span>
                   <span className="flex items-center justify-center space-x-2 ">
                     <Image
@@ -280,6 +290,9 @@ export default function Page() {
                     />
                   </span>
                 </p>
+              </div>
+              <div className="absolute top-0 right-0 mt-2 mr-2 text-neutral-900 group-hover:-rotate-12 group-hover:text-neutral-100 ">
+                  <ArrowIcon />
               </div>
             </div>
           </Link>
@@ -305,7 +318,7 @@ export default function Page() {
                 Resume
               </p>
             </div>
-            <div className="text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12 text-neutral-100">
+            <div className="text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12 group-hover:text-neutral-100">
               <ArrowIcon />
             </div>
           </a>
@@ -326,7 +339,7 @@ export default function Page() {
           <div className="flex flex-row space-x-4">
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
                   Python
                 </span>
               </div>
@@ -340,7 +353,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium  text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                <span className="font-medium  text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
                   Javascript
                 </span>
               </div>
@@ -354,7 +367,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
                   Django
                 </span>
               </div>
@@ -372,7 +385,7 @@ export default function Page() {
           <div className="flex flex-row space-x-4">
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
                   Docker
                 </span>
               </div>
@@ -386,53 +399,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
-                  Elasticsearch
-                </span>
-              </div>
-              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <Image
-                  src="/icons/elasticsearch-seeklogo.svg"
-                  alt="Elasticsearch Icon"
-                  className="h-5 w-5"
-                />
-              </span>
-            </div>
-            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
-              <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
-                  RabbitMQ
-                </span>
-              </div>
-              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <Image
-                  src="/icons/rabbitmq.svg"
-                  alt="RabbitMQ Icon"
-                  className="h-5 w-5"
-                />
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="">
-          <div className="flex flex-row space-x-4">
-            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
-              <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
-                  Redis
-                </span>
-              </div>
-              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
-                <Image
-                  src="/icons/redis.svg"
-                  alt="Redis Icon"
-                  className="h-5 w-5"
-                />
-              </span>
-            </div>
-            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
-              <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
                   PostgreSQL
                 </span>
               </div>
@@ -446,7 +413,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-200 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
                   MongoDb
                 </span>
               </div>
@@ -454,6 +421,52 @@ export default function Page() {
                 <Image
                   src="/icons/mongodb-icon-1.svg"
                   alt="MongoDb Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-row space-x-4">
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                  Redis
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <Image
+                  src="/icons/redis.svg"
+                  alt="Redis Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                  Elasticsearch
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <Image
+                  src="/icons/elasticsearch-seeklogo.svg"
+                  alt="Elasticsearch Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-400 group transition duration-300 ease-in-out group-hover:text-neutral-100">
+                  RabbitMQ
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <Image
+                  src="/icons/rabbitmq.svg"
+                  alt="RabbitMQ Icon"
                   className="h-5 w-5"
                 />
               </span>
