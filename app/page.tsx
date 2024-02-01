@@ -311,7 +311,7 @@ export default function Page() {
           <div className="flex flex-row space-x-4">
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   Python
                 </span>
               </div>
@@ -325,7 +325,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium  text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium  text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   Javascript
                 </span>
               </div>
@@ -339,7 +339,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   Django
                 </span>
               </div>
@@ -357,7 +357,7 @@ export default function Page() {
           <div className="flex flex-row space-x-4">
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   Docker
                 </span>
               </div>
@@ -371,7 +371,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   Elasticsearch
                 </span>
               </div>
@@ -385,7 +385,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   RabbitMQ
                 </span>
               </div>
@@ -403,7 +403,7 @@ export default function Page() {
           <div className="flex flex-row space-x-4">
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   Redis
                 </span>
               </div>
@@ -417,7 +417,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   PostgreSQL
                 </span>
               </div>
@@ -431,7 +431,7 @@ export default function Page() {
             </div>
             <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
               <div className="flex flex-col">
-                <span className="font-medium text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                <span className="font-medium text-neutral-100 hover:text-transparent group transition duration-300 ease-in-out">
                   MongoDb
                 </span>
               </div>
@@ -453,10 +453,10 @@ export default function Page() {
         Let&apos;s discuss opportunities, projects, or anything in between!
         </p>
       </div>
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 text-neutral-300">
+      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-300">
         <li>
           <a
-            className="flex items-center hover:text-neutral-800 hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-800 transition-all"
             rel="noopener noreferrer"
             href="mailto:aneemes1@gmail.com"
           >
@@ -466,7 +466,7 @@ export default function Page() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-800 hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-800 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/aneemes/"
@@ -477,7 +477,7 @@ export default function Page() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-800 hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-800 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/Aneemes"
