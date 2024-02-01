@@ -28,248 +28,435 @@ export default function Page() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
         hey, I'm Animesh 👋
       </h1>
-      <p className="prose prose-neutral dark:prose-invert">
-        {`Lorem ipsum dolor sit amet, consectetur adipiscing elit.`}
-        {`consectetur adipiscing elit. `}
+      <p className="prose prose-neutral ">
+        {`Welcome to my corner of the web! I'm a passionate backend engineer with a focus on crafting robust solutions using `}
         <span className="not-prose">
-            <svg
-              width="13"
-              height="11"
-              role="img"
-              aria-label="Vercel logo"
-              className="inline-flex mr-1"
-            >
-              <use href="/sprite.svg#vercel" />
-            </svg>
-            Lorem
+          <span className="border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 text-neutral-100 no-underline">
+          <img
+            src="/icons/python-5.svg"
+            alt="Python Icon"
+            className="!mr-1"
+            width="14"
+            height="14"
+          />
+            Python
+          </span>
         </span>
-        {`, Lorem ipsum dolor sit amet, consectetur adipiscing elit.`}
-          {/* <img
-            alt="Next.js logomark"
-            src="/next-logo.svg"
-            className="!mr-1"
-            width="14"
-            height="14"
-          /> */}
-          Ipsum
-        {` , an open-learning platform built with `}
-          <svg
-            width="14"
-            height="14"
-            role="img"
-            aria-label="React logo"
-            className="!mr-1"
-          >
-            <use href="/sprite.svg#react" />
-          </svg>
-          Lorem
-        .
+        {` and `}
+        <span className="not-prose">
+          <span className="border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 text-neutral-100 no-underline">
+            <img
+              src="/icons/django.svg"
+              alt="Django Icon"
+              className="!mr-1"
+              width="14"
+              height="14"
+            />
+              Django
+          </span>
+        </span>
+        {`. With a keen eye for detail and a love for problem-solving, I thrive on turning complex ideas into elegant, efficient code.`}
       </p>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
         <div className="relative h-40 mb-4">
-          <Link href="/">
-            <Image
-              alt="this is alt text"
-              src="/bg.gif"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
+          <Link href="https://olenepal.org" target='_blank'>
+            <div className="group">
+              <Image
+                alt="this is alt text"
+                src="/banners/cms.jpg"
+                fill
+                sizes="(max-width: 768px) 213px, 33vw"
+                priority
+                className="rounded-lg object-cover"
+              />
+              <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
+                <p className="text-white text-lg font-bold">
+                  <span>OLE Nepal</span>
+                  <span className="flex items-center justify-center space-x-2 ">
+                    <img
+                      src="/icons/django.svg"
+                      alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/postgresql.svg"
+                      alt="PostgreSQL Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/html-1.svg"
+                      alt="HTML 5 Icon"
+                      className="h-5 w-5"
+                    />
+                  </span>
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
         <div className="relative h-80 mb-4 sm:mb-0">
-          <Link href="/">
+          <Link href="https://gadgetly-client.vercel.app" target="_blank">
+          <div className="group">
             <Image
               alt="this is alt text"
-              src="/bg.gif"
+              src="/banners/gadgetly.jpg"
               fill
               sizes="(max-width: 768px) 213px, 33vw"
               priority
               className="rounded-lg object-cover object-[-16px] sm:object-center"
             />
+              <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
+                <p className="text-white text-lg font-bold">
+                  <span>Gadgetly</span>
+                  <span className="flex items-center justify-center space-x-2 ">
+                    <img
+                      src="/icons/nodejs-icon.svg"
+                      alt="RabbitMQ Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/react.svg"
+                      alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/mongodb-icon-1.svg"
+                      alt="Python Icon"
+                      className="h-5 w-5"
+                    />
+                  </span>
+                </p>
+              </div>
+          </div>
           </Link>
         </div>
         <div className="relative h-40 sm:h-80 sm:mb-4">
-          <Link href="/">
-            <Image
-              alt="this is alt text"
-              src="/bg.gif"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover object-top sm:object-center"
-            />
+          <Link href="https://pustakalaya.org" target="_blank">
+            <div className="group">
+              <Image
+                alt="this is alt text"
+                src="/banners/ep.jpg"
+                fill
+                sizes="(max-width: 768px) 213px, 33vw"
+                priority
+                className="rounded-lg object-cover object-top sm:object-center"
+              />
+              <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
+                <p className="text-white text-lg font-bold">
+                  <span>E-Pustakalaya</span>
+                  <span className="flex items-center justify-center space-x-2 ">
+                    <img
+                      src="/icons/django.svg"
+                      alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/postgresql.svg"
+                      alt="Python Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/elasticsearch-seeklogo.svg"
+                      alt="RabbitMQ Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/rabbitmq.svg"
+                      alt="RabbitMQ Icon"
+                      className="h-5 w-5"
+                    />
+                  </span>
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
         <div className="relative h-40 mb-4 sm:mb-0">
-          <Link href="/">
-            <Image
-              alt="this is alt text"
-              src="/bg.gif"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
+          <Link href="https://bloodbank-sand.vercel.app" target="_blank">
+            <div className="group">
+              <Image
+                alt="this is alt text"
+                src="/banners/bloodbank.jpg"
+                fill
+                sizes="(max-width: 768px) 213px, 33vw"
+                priority
+                className="rounded-lg object-cover"
+              />
+              <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
+                <p className="text-white text-lg font-bold">
+                  <span>BloodBank</span>
+                  <span className="flex items-center justify-center space-x-2 ">
+                    <img
+                      src="/icons/django.svg"
+                      alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/bootstrap-5.svg"
+                      alt="Bootstrap Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/xampp.svg"
+                      alt="Xampp Icon"
+                      className="h-5 w-5"
+                    />
+                  </span>
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
         <div className="relative h-40 mb-4">
-          <Link href="/">
-            <Image
-              alt="this is alt text"
-              src="/bg.gif"
-              fill
-              sizes="(max-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
+          <Link href="https://gradewise.pustakalaya.org" target="_blank">
+            <div className="group">
+              <Image
+                alt="this is alt text"
+                src="/banners/gradewise.jpg"
+                fill
+                sizes="(max-width: 768px) 213px, 33vw"
+                priority
+                className="rounded-lg object-cover"
+              />
+              <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
+                <p className="text-white text-lg font-bold">
+                  <span>Gradewise</span>
+                  <span className="flex items-center justify-center space-x-2 ">
+                    <img
+                      src="/icons/react.svg"
+                      alt="React Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/django.svg"
+                      alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                  </span>
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
         <div className="relative h-80">
-          <Link href="/">
-            <Image
-              alt="this is alt text"
-              src="/bg.gif"
-              fill
-              sizes="(min-width: 768px) 213px, 33vw"
-              priority
-              className="rounded-lg object-cover"
-            />
+          <Link href="https://gradewise.pustakalaya.org" target="_blank">
+            <div className="group">
+              <Image
+                alt="this is alt text"
+                src="/banners/gradewise.jpg"
+                fill
+                sizes="(min-width: 768px) 213px, 33vw"
+                priority
+                className="rounded-lg object-cover"
+              />
+              <div className="rounded-lg absolute inset-0 bg-black opacity-0 group-hover:opacity-65 flex items-center justify-center transition-opacity duration-400">
+                <p className="text-white text-lg font-bold">
+                  <span>Gradewise</span>
+                  <span className="flex items-center justify-center space-x-2 ">
+                    <img
+                      src="/icons/react.svg"
+                      alt="React Icon"
+                      className="h-5 w-5"
+                    />
+                    <img
+                      src="/icons/django.svg"
+                      alt="Django Icon"
+                      className="h-5 w-5"
+                    />
+                  </span>
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
       </div>
-      <div className="prose prose-neutral dark:prose-invert">
+      <div className="prose prose-neutral prose-invert">
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a scelerisque turpis. 
-        Proin metus turpis, elementum consectetur erat eget, dapibus ornare metus. 
-        Sed lacinia, justo at tempor euismod, elit erat lobortis nibh, 
-        Proin quis nibh eget mi mattis interdum. Nullam faucibus massa at erat imperdiet porttitor in at velit.
-        </p>
-      </div>
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a scelerisque turpis. 
-        Proin metus turpis, elementum consectetur erat eget, dapibus ornare metus. Sed lacinia, justo at tempor euismod, elit erat lobortis nibh, 
-        vitae ornare tortor nisl vitae velit. Nunc convallis neque ac massa porttitor tempus. Nullam dignissim mollis aliquam. Maecenas pulvinar ligula quis orci eleifend, 
-        quis vulputate ligula posuere. Vestibulum vestibulum, orci eget sollicitudin eleifend, ipsum felis tincidunt magna, nec vehicula libero lectus quis magna. Integer eleifend aliquet lacus, 
-        Proin quis nibh eget mi mattis interdum. Nullam faucibus massa at erat imperdiet porttitor in at velit.
+        These were some of the projects that I've had the pleasure working on.
+        Curious to learn more about my journey and expertise? Dive into the details on my resume. 
+        Feel free to explore my skills, experience, and the exciting challenges I've tackled throughout my career. 
+        You can take a look at my resume below and get a deeper insight into what makes me tick as a backend engineer.
         </p>
       </div>
       <div className="my-8 flex flex-col space-y-4 w-full">
         <div className="group">
-          <div className="flex flex-row space-x-4">
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Python
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
+          <a
+            target="_blank"
+            href="/resume/Resume Animesh Nepal.pdf"
+            className="border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
+          >
+            <div className="flex flex-col">
+              <p className="font-medium text-neutral-900 text-neutral-100">
+                Resume
+              </p>
             </div>
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Javascript
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
+            <div className="text-neutral-700 text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
+              <ArrowIcon />
             </div>
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Django
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="group">
-          <div className="flex flex-row space-x-4">
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Docker
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  ElasticSearch
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Celery
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="group">
-          <div className="flex flex-row space-x-4">
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Redis
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  PostgreSQL
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-
-            <div className="flex-1 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-              <div className="flex flex-col">
-                <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  MongoDb
-                </p>
-                <Suspense fallback={<p className="h-6" />} />
-              </div>
-              <div className="text-neutral-700 dark:text-neutral-300 transform transition-transform duration-300 group-hover:-rotate-12">
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
-      <div className="prose prose-neutral dark:prose-invert">
+
+      <div className="prose prose-neutral prose-invert">
         <p>
-          You can contact me at
+        Within my professional toolkit, I wield a robust arsenal of technologies that empower me to transform concepts into reality. 
+        My major technical stack encompasses a mastery of Django and Python, forming the backbone of my backend engineering proficiency. 
+        Complemented by expertise in database optimization, system architecture, and a keen eye for detail, these tools enable me to craft solutions 
+        that stand the test of complexity. 
+        The following represents the cornerstone of my technical stack, a foundation upon which I build innovative and scalable solutions.
         </p>
       </div>
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
+      <div className="my-8 flex flex-col space-y-4 w-full">
+        <div className="">
+          <div className="flex flex-row space-x-4">
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  Python
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/python-5.svg"
+                  alt="Python Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  Javascript
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/logo-javascript.svg"
+                  alt="JavaScript Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  Django
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/django.svg"
+                  alt="Django Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-row space-x-4">
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  Docker
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/docker-4.svg"
+                  alt="Docker Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  Elasticsearch
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/elasticsearch-seeklogo.svg"
+                  alt="Elasticsearch Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  RabbitMQ
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/rabbitmq.svg"
+                  alt="RabbitMQ Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-row space-x-4">
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  Redis
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/redis.svg"
+                  alt="Redis Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  PostgreSQL
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/postgresql.svg"
+                  alt="PostgreSQL Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+            <div className="flex-1 border border-neutral-200 border-neutral-700 bg-neutral-50 bg-neutral-800 rounded flex items-center justify-between px-3 py-4 relative group">
+              <div className="flex flex-col">
+                <span className="font-medium text-neutral-900 text-neutral-100 hover:text-transparent group-hover:text-neutral-900 group-hover:text-neutral-100 transition duration-300 ease-in-out">
+                  MongoDb
+                </span>
+              </div>
+              <span className="absolute right-0 flex items-center opacity-0 group-hover:opacity-100 transition duration-300 mr-2 ease-in-out">
+                <img
+                  src="/icons/mongodb-icon-1.svg"
+                  alt="MongoDb Icon"
+                  className="h-5 w-5"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="prose prose-neutral prose-invert">
+        <p>
+        Ready to embark on a collaborative journey? 
+        Connect with me via email, LinkedIn, or explore my GitHub repositories. 
+        Let's discuss opportunities, projects, or anything in between!
+        </p>
+      </div>
+      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 text-neutral-300">
         <li>
           <a
-            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-800 hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             href="mailto:aneemes1@gmail.com"
           >
@@ -279,7 +466,7 @@ export default function Page() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-800 hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/aneemes/"
@@ -290,7 +477,7 @@ export default function Page() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-800 hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/Aneemes"
