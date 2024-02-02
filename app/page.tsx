@@ -3,7 +3,6 @@ import { unstable_noStore as noStore } from 'next/cache';
 import Link from 'next/link';
 import Image from 'next/image';
 
-
 function ArrowIcon() {
   return (
     <svg
